@@ -30,8 +30,6 @@ A QR code scanning application is facing reliability issues, including slow resp
 
 - **Auto-scaling**: Implement auto-scaling policies based upon resource utilization or custom metrics. This allows the application to scale up or down based on demand. For example, if CPU usage exceeds a threshold, the number of application instances can automatically increase.
 
-- **Performance Monitoring**: Continuously monitor application performance using tools like Grafana or Azure Monitor. Collect real-time data on response times, CPU usage, memory utilization, etc. Adjust resources or configurations based on monitoring insights.
-
 - **Failover and Disaster Recovery**: Set up a robust disaster recovery plan, including data backups and geographical redundancy. For example, if the application runs on Azure, you can replicate data across multiple Azure regions to ensure high availability.
 
 - **Keeping Applications Updated**: Regularly update all application components, including libraries, frameworks, and dependencies. This helps avoid performance and security issues stemming from outdated software versions. For instance, updating .NET Core to the latest version can bring performance improvements and bug fixes.
