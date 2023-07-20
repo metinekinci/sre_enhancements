@@ -14,19 +14,11 @@ A QR code scanning application is facing reliability issues, including slow resp
 
 - **Horizontal Scaling**: Deploy the application on multiple servers or instances. Use a load balancer to distribute incoming requests. For example, if your QR scanning application is hosted on AWS, you can use Elastic Load Balancing (ELB) to distribute traffic across EC2 instances.
 
-- **Microservices Architecture**: Refactor the application into microservices. For instance, split the application into separate services for QR code validation, payment processing, and information retrieval. This allows independent scalability and easier maintenance.
-
-- **Docker Containers**: Containerize each microservice using Docker. This ensures consistency in different environments, whether on-premises or in the cloud. Container orchestration tools like Kubernetes can be used to manage and scale containers efficiently.
-
 - **Automated Testing**: Enhance unit testing using frameworks like XUnit and Moq. Implement automated integration tests that simulate QR code scanning and payment processing. Continuous testing helps identify and fix issues early in the development process.
 
 - **Load Testing**: Use tools like JMeter to simulate high user traffic on the application. Monitor application behavior under load and identify performance bottlenecks. Adjust resources or scale the application horizontally based on load test results.
 
 - **Error Monitoring and Logging**: Implement centralized error monitoring and logging using tools like ELK stack or Azure Log Analytics. This allows the team to quickly identify and troubleshoot issues, such as frequent crashes.
-
-- **Continuous Integration and Deployment (CI/CD)**: Set up a CI/CD pipeline using platforms like Jenkins or Azure DevOps. Automate the deployment process to ensure frequent releases with minimal downtime. For example, automatically trigger deployments when new code is pushed to the repository.
-
-- **Container Orchestration**: Implement container orchestration platforms such as K8s, OpenShift. This enables efficient scaling and resource allocation of containers based on demand. For instance, Kubernetes can automatically scale up instances when the QR scanning application experiences a sudden surge in users.
 
 - **Auto-scaling**: Implement auto-scaling policies based upon resource utilization or custom metrics. This allows the application to scale up or down based on demand. For example, if CPU usage exceeds a threshold, the number of application instances can automatically increase.
 
