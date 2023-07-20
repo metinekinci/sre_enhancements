@@ -27,5 +27,3 @@ A QR code scanning application is facing reliability issues, including slow resp
 - **Keeping Applications Updated**: Regularly update all application components, including libraries, frameworks, and dependencies. This helps avoid performance and security issues stemming from outdated software versions. For instance, updating .NET Core to the latest version can bring performance improvements and bug fixes.
 
 - **Integrating DevSecOps Tools**: Integrate DevSecOps practices into the development pipeline. Tools like SonarQube can be used to enhance code quality by identifying bugs, code duplications, security vulnerabilities, and code smells. For example, SonarQube can alert the team about insecure API endpoints or potential security threats in the codebase.
-
-- **Content Delivery Network (CDN)**: Implement a CDN to cache internet content and deliver it from a network location closest to the user. This reduces latency and speeds up content delivery. For instance, when a user accesses QR code images or app-related content, the CDN will serve the cached content from a nearby server, reducing the time it takes for the user to view the content.
